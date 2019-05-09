@@ -1,0 +1,49 @@
+/*
+* Ashley DeFrehn
+* May 8, 2019
+* Girl Develop IT
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+/* Below is the properties I used to change the fonts in my web page */
+h1 {font-family: cursive;
+    text-decoration: underline;}
+h2 {font-family: cursive;
+    text-decoration: underline;}
+main {font-family:"arial";}
+
+/* The following properties are for the two images, and tell the image to float right, the width, the height, clear, and the margin between the photos. */
+
+#girls {float: right;
+        width: 300px;
+        height: 210px;
+        clear:left;
+        margin: 0px;}
+#bfcomputer {float: right;
+             width: 300px;
+             height: 210px;
+             clear: left;
+            margin: 0px;}
+/* Below is how I chnaged the font for the footer of my web page */
+footer {font-family: "Times New Roman", serif, sans-serif;}
+/* Below makes my links chnage color and increase size when I hover over then with a mouse */
+a:hover, a:focus {
+    color: fuchsia;
+    text-decoration: underline;
+    font-size: larger;}
+/* Below is my aligning for the piture of Girl Develop It Logo */
+#girldevit {text-align: center;}
+
+/* Below is the header background I used using HEX Color */
+header {background-color: #F06B6B;}
+/* Below is the background color for the page using HEX Color */
+body{
+background-color: #FDE0E0;
+
+}
